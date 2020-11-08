@@ -1,0 +1,13 @@
+#+TITLE: The Most Dangerous Minor Mode
+
+The Most Dangerous Minor Mode, as the name says, is a particularly
+dangerous Emacs minor mode.  It’s inspired by the website “the most
+dangerous writing app”.
+
+If you don’t type at least one key every ~tmd-timeout~, (by default 5
+seconds) the whole buffer will be deleted (the narrowing will be
+respected).
+
+You can enable and toggle it with =M-x tmd-minor-mode RET=.
+
+It doesn’t delete the undo history, this is probably a bug ;)
